@@ -10,6 +10,19 @@ body {
   top: 50px;
   animation: 1.5s First infinite ease-in-out;
 }
+.child {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 50px;
+  transition: all 3s ease-in-out;
+}
+.child:hover {
+  background-color: yellow;
+  color: black;
+  transform: rotate(45deg) scale(2);
+}
 
 @keyframes First {
   0% {
