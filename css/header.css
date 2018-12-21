@@ -5,6 +5,15 @@
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 2;
+}
+
+.top_header a {
+  color: white;
+}
+
+.top_header_transparent_chat {
+  color: black;
 }
 
 .top_header .header_top,

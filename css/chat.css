@@ -1,0 +1,137 @@
+.body_chat {
+  padding-bottom: 0;
+}
+
+.chat_header,
+.chat_header a {
+  background-color: #a1c0d6;
+  color: black;
+}
+
+.chat {
+  background-color: #a1c0d6;
+  height: 100vh;
+  position: relative;
+  top: -3px;
+}
+
+.chat_header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chat_message_to_me img {
+  align-self: flex-start;
+}
+
+.chat .date_divider {
+  padding-top: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.date_divider_text {
+  font-size: 12px;
+}
+
+.chat .chat_message_from_me {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.chat_message_from_me .chat_message_time {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 3px;
+}
+
+.chat_message_from_me .chat_message_body {
+  background-color: #ffe934;
+  padding: 5px 5px;
+  margin-right: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.chat_message {
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat_message_to_me img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat_message_center .chat_message_username {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.chat_message_center {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat_message_to_me .chat_message_body {
+  background-color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.chat_message_to_me .chat_message_time {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  bottom: 0;
+}
+
+.type_message {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #eeeeee;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 5px;
+  align-items: center;
+}
+
+.type_message .fa-plus {
+  color: #b4b4b4;
+}
+
+.type_message_input {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.type_message_input input {
+  width: 100%;
+  padding: 10px;
+}
+
+.fa-smile-o {
+  position: absolute;
+  right: 50px;
+  color: #b4b4b4;
+}
+
+.record_message {
+  color: #523737;
+  background-color: #ffe934;
+  padding: 12px;
+  cursor: pointer;
+}
